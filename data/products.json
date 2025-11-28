@@ -1,5 +1,5 @@
 [
-  {"id":1,"title":"Classic Sneakers","price":1999,"image":"https://via.placeholder.com/400x300"},
-  {"id":2,"title":"Wireless Headphones","price":2999,"image":"https://via.placeholder.com/400x300"},
-  {"id":3,"title":"Smart Watch","price":3499,"image":"https://via.placeholder.com/400x300"}
+{"id":1,"title":"Modern Lamp","price":29.99,"img":"assets/lamp.jpg","desc":"Sleek bedside lamp."},
+{"id":2,"title":"Cozy Throw","price":49.5,"img":"assets/throw.jpg","desc":"Soft wool throw."},
+{"id":3,"title":"Ceramic Mug","price":12.99,"img":"assets/mug.jpg","desc":"Handmade mug."}
 ]
