@@ -1,32 +1,38 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Shoply — E‑commerce</title>
-<link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NovaCart — Modern E-commerce</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
+
 <body>
-<header class="topbar">
-<h1 class="brand">Shoply</h1>
-<div class="search">
-<input id="search" placeholder="Search products..." />
-<button id="toggle-cart">Cart (<span id="cart-count">0</span>)</button>
-</div>
-</header>
-<main>
-<section id="product-grid" class="grid"></section>
-</main>
-<div id="cart-panel" class="cart-panel hidden"></div>
-<template id="product-template">
-<article class="card">
-<img class="thumb" src="" alt="">
-<h3 class="title"></h3>
-<p class="price"></p>
-<button class="add">Add to cart</button>
-</article>
-</template>
-<script src="js/cart.js"></script>
-<script src="js/app.js"></script>
+  <header class="header">
+      <h1 class="logo">NovaCart</h1>
+
+      <div class="search-bar">
+          <input id="searchBox" placeholder="Search for products..." />
+          <button id="searchBtn">Search</button>
+      </div>
+
+      <button id="toggle-cart" class="cart-btn">
+          🛒 Cart (<span id="cart-count">0</span>)
+      </button>
+
+      <button id="darkToggle" class="dark-toggle">🌙</button>
+  </header>
+
+  <section class="categories" id="category-section"></section>
+
+  <h2 class="section-title">🔥 Best Sellers</h2>
+  <section id="best-seller-grid" class="product-grid"></section>
+
+  <div id="cart-panel" class="cart-panel hidden"></div>
+
+  <script src="js/cart.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
+
